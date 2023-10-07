@@ -66,6 +66,11 @@ h4 {
   align-items: center;
 }
 
+.climate-details:hover,
+.climate-input:hover {
+  box-shadow: 2px 5px 20px #040004;
+}
+
 .climate-input {
   padding: 10px 40px;
   justify-content: space-between;
@@ -147,6 +152,10 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.detail:hover {
+  box-shadow: 2px 5px 20px #040004;
 }
 
 .detail-card .detail {
