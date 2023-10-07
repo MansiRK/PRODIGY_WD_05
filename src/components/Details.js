@@ -3,9 +3,9 @@ import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 import { BiHappyAlt, BiLogoTailwindCss } from "react-icons/bi";
 import { MdCompress, MdOutlineWaterDrop } from "react-icons/md";
 
-const Details = ({ weather, units }) => {
-  const tempUnit = units === "metric" ? "°C" : "°F";
-  const windUnit = units === "metric" ? "m/s" : "m/h";
+const Details = ({ weather, unit }) => {
+  const tempUnit = unit === "metric" ? "°C" : "°F";
+  const windUnit = unit === "metric" ? "m/s" : "m/h";
 
   const details = [
     {
