@@ -88,7 +88,7 @@ const Home = () => {
               <div className="icon">
                 <img className="icon-img" src={weather.iconUrl} alt="icon" />
 
-                <h3 className="detail">{weather.description}</h3>
+                <h3 className="temp-description">{weather.description}</h3>
               </div>
 
               <div className="temprature">
